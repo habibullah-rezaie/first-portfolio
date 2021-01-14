@@ -8,3 +8,7 @@ body {
     scroll-behavior: smooth;
     font-size: 100%;
 }
+
+#container {
+    position: relative;
+}
