@@ -9,6 +9,11 @@ body {
     font-size: 100%;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 #container {
     position: relative;
 }
@@ -48,8 +53,6 @@ header li a {
     padding-top: .8em;
     height: 100%;
     display: block;
-    text-decoration: none;
-    color: white;
     font-size: larger;
     font-weight: 500;
     transition: transform .4s .3s ease-in;
@@ -102,6 +105,7 @@ header li:nth-child(1) a:hover {
 #welcome-section #friend {
     color: burlywood;
 }
+
 /* END Welcome Section */
 
 
@@ -145,9 +149,19 @@ header li:nth-child(1) a:hover {
 
 #projects ul figure figcaption {
     height: 10%;
-    background-color: #2f2f2f; 
+    background-color: #2f2f2f;
     color: white;
     text-align: center;
     padding: .55em;
     font-weight: 500;
+}
+
+#projects button {
+    margin: auto;
+    width: 10%;
+    max-width: 250px;
+    padding: .3em 1em;
+    grid-area: 3/1/4/2;
+    background-color: #2f2f2f;
+    color: white;
 }
