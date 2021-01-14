@@ -27,6 +27,7 @@ header {
 header #navbar {
     height: 100%;
 }
+
 header ul {
     display: flex;
     list-style: none;
@@ -42,6 +43,7 @@ header li {
 header li:hover {
     background-color: #45567d;
 }
+
 header li a {
     padding-top: .8em;
     height: 100%;
@@ -70,3 +72,34 @@ header li:nth-child(1) a:hover {
     font-weight: bold;
     font-size: 130%;
 }
+
+/* Welcome Section */
+#welcome-section {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 100vh;
+    text-align: center;
+    background-color: #2f2f2f;
+    font-size: 200%;
+}
+
+#welcome-section h1 {
+    /* The text should be at the bottom of the row*/
+    align-self: flex-end;
+    color: white;
+}
+
+#welcome-section p {
+    /* The text should be at the top of the row*/
+    align-self: baseline;
+    color: crimson;
+}
+
+#welcome-section #developer {
+    color: #45567d;
+}
+
+#welcome-section #friend {
+    color: burlywood;
+}
+/* END Welcome Section */
