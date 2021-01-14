@@ -12,3 +12,61 @@ body {
 #container {
     position: relative;
 }
+
+header {
+    display: grid;
+    position: fixed;
+    width: 100%;
+    height: 55px;
+    background-color: crimson;
+    justify-items: end;
+    align-items: center;
+    z-index: 100;
+}
+
+header #navbar {
+    height: 100%;
+}
+header ul {
+    display: flex;
+    list-style: none;
+    height: 100%;
+}
+
+header li {
+    padding: 0 3vw;
+    transition: background-color .5s .2s ease-out;
+    cursor: pointer;
+}
+
+header li:hover {
+    background-color: #45567d;
+}
+header li a {
+    padding-top: .8em;
+    height: 100%;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-weight: 500;
+    transition: transform .4s .3s ease-in;
+}
+
+header li:last-child a:hover {
+    transform: rotate(4deg);
+    font-weight: bold;
+    font-size: 130%;
+}
+
+header li:nth-child(2) a:hover {
+    transform: rotate(-4deg);
+    font-weight: bold;
+    font-size: 130%;
+}
+
+header li:nth-child(1) a:hover {
+    transform: rotate(4deg);
+    font-weight: bold;
+    font-size: 130%;
+}
