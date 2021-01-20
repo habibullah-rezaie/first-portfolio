@@ -139,6 +139,7 @@ header li:nth-child(1) a:hover {
 #projects ul li figure {
     width: 100%;
     height: 100%;
+    background-color: #2f2f2f;
 }
 
 #projects ul figure img {
@@ -148,7 +149,6 @@ header li:nth-child(1) a:hover {
 
 #projects ul figure figcaption {
     height: 10%;
-    background-color: #2f2f2f;
     color: white;
     text-align: center;
     padding: 0.55em;
