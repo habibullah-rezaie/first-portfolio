@@ -95,7 +95,8 @@ header li:nth-child(1) a:hover {
 #welcome-section p {
     /* The text should be at the top of the row*/
     align-self: baseline;
-    color: crimson;
+    color: rgba(220, 20, 60, 0.644);
+    font-weight: lighter;
 }
 
 #welcome-section #developer {
