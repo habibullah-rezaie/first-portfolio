@@ -215,3 +215,10 @@ header li:nth-child(1) a:hover {
 #contact-details button:hover {
     transform: translate(0%, 50%);
 }
+
+footer {
+    background-color: #45567d;
+    text-align: center;
+    height: 40px;
+    padding: .6em;
+}
