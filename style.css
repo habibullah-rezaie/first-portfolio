@@ -221,10 +221,11 @@ header li:nth-child(1) a:hover {
     padding: 0.5em;
     margin: 0 5vw;
     transition: all 1s ease;
+    font-size: 130%;
 }
 
 #contact-details button:hover {
-    transform: translate(0%, 50%);
+    transform: translate(0%, 20%);
 }
 
 footer {
