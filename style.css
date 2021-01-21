@@ -234,3 +234,93 @@ footer {
     height: 40px;
     padding: 0.6em;
 }
+
+@media only screen and (max-width: 1700px) {
+    #projects {
+        grid-template-rows: auto;
+    }
+
+    #projects button {
+        margin: 2em auto;
+    }
+
+    #projects h2 {
+        margin: 1.5em auto;
+    }
+    #projects ul {
+        grid-template-columns: repeat(3, 26vw);
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    #projects ul {
+        grid-template-columns: repeat(3, 28vw);
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    #projects ul {
+        grid-template-columns: repeat(3, 29vw);
+    }
+}
+@media only screen and (max-width: 1200px) {
+    #projects ul {
+        grid-template-columns: repeat(2, 40vw);
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    #projects ul {
+        grid-template-columns: repeat(2, 42vw);
+    }
+}
+@media only screen and (max-width: 850px) {
+    #projects ul {
+        grid-template-columns: repeat(2, 45vw);
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    #welcome-section {
+        font-size: 150%;
+    }
+    #projects ul {
+        grid-template-columns: repeat(1, 80vw);
+    }
+
+    #projects figure {
+        height: 400px !important;
+    }
+
+    #projects button {
+        min-width: 120px;
+    }
+
+    #contact-details .title {
+        font-size: 170% !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #contact-details .title {
+        font-size: 120% !important;
+    }
+    #welcome-section {
+        font-size: 110%;
+    }
+}
+@media only screen and (max-width: 400px) {
+    body {
+        font-size: 80% !important;
+    }
+
+    header {
+        height: 43px;
+    }
+    #projects ul {
+        grid-template-columns: repeat(1, 90vw);
+    }
+    #projects figure {
+        height: 350px !important;
+    }
+}
