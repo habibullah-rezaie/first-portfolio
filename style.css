@@ -16,6 +16,7 @@ a {
 
 button {
     border: none;
+    height: 2.5em;
 }
 
 button:active {
