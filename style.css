@@ -299,6 +299,11 @@ footer {
     #contact-details .title {
         font-size: 170% !important;
     }
+
+    #contact-details button {
+        margin: 0 2vw;
+        font-size: 100%;
+    }
 }
 
 @media only screen and (max-width: 500px) {
